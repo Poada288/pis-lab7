@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="{% static 'css/article.css' %}">
+</head>
+<body class="create-post">
+    <main class="content">
+        <div class="header">
+            <img src="{% static 'img/logo.svg' %}" alt="Django public blog">
+            <a class="all-posts" href="{% url 'archive' %}">Все записи</a>
+        </div>
+        <h1>Регистрация</h1>
+        <form method="post" novalidate>
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,196 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+}
+
+.header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.archive .header {
+    margin: 28px 0 40px;
+}
+
+.post-title a {
+    color: #ffffff;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+    font-weight: bold;
+}
+
+.article-created-date {
+    text-align: right;
+    font-style: italic;
+}
+
+.article-info {
+    overflow: hidden;
+}
+
+.article-text {
+    line-height: 1.4;
+}
+
+.one-post {
+    margin-bottom: 40px;
+}
+
+.article .content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 28px 0 40px;
+}
+
+.article .header img {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.all-posts {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.article h1 {
+    font-size: 32px;
+}
+
+.archive .post-title {
+    font-size: 32px;
+}
+
+.create-post .content {
+    max-width: 760px;
+    margin: 28px auto;
+    padding: 0 16px;
+}
+
+.create-post .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.create-post .header img {
+    margin: 0;
+    max-width: 60%;
+}
+
+.create-post label {
+    display: block;
+    margin: 16px 0 6px;
+    font-weight: bold;
+}
+
+.create-post input, .create-post textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #117864;
+    border-radius: 4px;
+    font: inherit;
+}
+
+.create-post button {
+    margin-top: 16px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 4px;
+    background: #117864;
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
+
+.form-error {
+    padding: 10px;
+    background: #fff;
+    color: #9c2727;
+}
+
+.archive .header, .article .header {
+    position: relative;
+    min-height: 58px;
+}
+
+.account-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.article .header > .all-posts {
+    align-self: flex-end;
+}
+
+.create-post .errorlist {
+    padding: 8px 12px;
+    list-style: none;
+    background: white;
+    color: #9c2727;
+}
+
+.one-post.folded .article-author,
+.one-post.folded .article-created-date,
+.one-post.folded .article-text {
+    display: none;
+}
+
+.students {
+    padding-bottom: 32px;
+}
+
+.students form {
+    margin: 12px 0;
+}
+
+.students input {
+    padding: 6px;
+    font: inherit;
+}
+
+.students button, .fold-button {
+    padding: 6px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: #117864;
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
+
+.students table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.students th, .students td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
